@@ -102,7 +102,7 @@ Market Projection: Data indicates a 15% increase in remote-first AI roles by 202
 
 Query Performance via Indexing: By implementing indexes on frequently filtered columns like job_title and salary_USD, I optimized the database to handle the 2,000-record scale efficiently, reducing search latency.
 
-Data Integrity through Automation: Your BEFORE DELETE trigger acts as a fail-safe, ensuring that even if Safe Update Mode is disabled, the dataset's historical integrity remains untouched.
+Data Integrity through Automation: The BEFORE DELETE trigger acts as a fail-safe, ensuring that even if Safe Update Mode is disabled, the dataset's historical integrity remains untouched.
 
 Modular Logic: Using Stored Procedures and Functions (like CategorizeAISkill) allows for a "write once, use everywhere" approach. 
 
@@ -110,7 +110,7 @@ View-Based Reporting: Creating the average_salary_per_job view ensures that the 
 
 📈 Market & Career Insights (2022-2026): 
 
-Salary Bracket Evolution: Your analysis identified that while "Entry Pay" roles are common in 2022-2023, there is a significant shift toward "High Pay" brackets (>$100k USD) as we approach the 2026 projections, specifically in specialized AI roles.
+Salary Bracket Evolution: My analysis identified that while "Entry Pay" roles are common in 2022-2023, there is a significant shift toward "High Pay" brackets (>$100k USD) as we approach the 2026 projections, specifically in specialized AI roles.
 
 The Skill Premium: While Python and SQL are baseline requirements across all 2,000 records, niche skills like TensorFlow, NLP, and PyTorch are linked to higher salary tiers.
 
