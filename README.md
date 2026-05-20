@@ -1,7 +1,8 @@
 🤖 AI Job Market Analysis  (2022-2026)
 
 
-📌 Project Overview
+📌 Project Overview:
+
 This repository contains a comprehensive SQL-based data Analytics project using a Kaggle dataset of 2,000 records regarding the AI job market. The project demonstrates the full journey from raw data ingestion to the implementation of advanced database objects like Stored Procedures, Triggers, and Functions to ensure data integrity and analytical readiness.
 
 To move from a raw CSV format into a structured relational environment, I create a custom database schema in MySQL and utilized the Table Data Import Wizard to manage the data ingestion process. This automated import ensured data type consistency and integrity, allowing me to immediately transition from raw storage to advanced SQL manipulation, including schema enhancements.
